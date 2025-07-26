@@ -15,7 +15,6 @@ public class SimpleSelenideWithListenerTest {
 
     @BeforeAll
     static void setUp() {
-
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserSize = "1920x1080";
     }
